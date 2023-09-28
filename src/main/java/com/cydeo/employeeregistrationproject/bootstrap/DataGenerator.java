@@ -8,6 +8,8 @@ import java.util.List;
 
 public class DataGenerator {
 
+    // The thing that will happen when running the application for the first time.
+    // put the Business Login inside the bootstrap package
     private static List<Employee> employeeList = new ArrayList<>();
 
     public static void saveEmployee(Employee employee) {
