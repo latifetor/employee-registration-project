@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import javax.validation.Valid;
 
 @Controller
-@RequestMapping("/employee")
+@RequestMapping("/employee") // put one ENDPOINT that will cover all the methods inside this class
 public class EmployeeController {
 
     @GetMapping("/register")

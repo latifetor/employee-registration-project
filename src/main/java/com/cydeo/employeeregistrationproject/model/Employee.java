@@ -16,10 +16,6 @@ import java.time.LocalDate;
 @ToString
 public class Employee {
 
-//    @NotNull            // Except null, anything can be accepted
-//    @NotEmpty           // Except null and empty String anything can be accepted
-//    @NotBlank           // Except null, empty String and only space anything can be accepted.
-
     @NotBlank
     @Size(max = 12, min = 2)
     private String firstName;
